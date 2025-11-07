@@ -7,7 +7,7 @@
 define('BASE_URL', getenv('TODOLIST_BASE_URL') ?: '/'); //'/archidep-php-todolist-ex/'
 
 // Database connection parameters.
-define('DB_USER', getenv('TODOLIST_DB_USER') ?: '/'); // 'todolist'
+define('DB_USER', getenv('TODOLIST_DB_USER') ?: 'todolist'); // 'todolist'
 define('DB_PASS', getenv('TODOLIST_DB_PASS')); // 'UniformiteMegalomanePreferentielUderzo'
 define('DB_NAME', getenv('TODOLIST_DB_NAME') ?: 'todolist'); // 'todolist'
 define('DB_HOST', getenv('TODOLIST_DB_HOST') ?: '127.0.0.1');
